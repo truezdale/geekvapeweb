@@ -1,0 +1,167 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: #AEAEAE;
+}
+
+.topik {
+    height: 45px;
+    background-color: black !important;
+
+    p {
+        font-size: 10px;
+        font-weight: 400;
+        color: white;
+    }
+}
+
+.navbar-brand {
+    img {
+        width: 100px;
+        height: 79px;
+    }
+}
+
+@media (min-width: 992px) {
+    .topik {
+        height: 40px;
+        background-color: black !important;
+
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            color: white;
+        }
+    }
+}
+
+.carouselExampleControls {
+    .carouserl-title {
+        text-align: right;
+        margin-top: 40px;
+
+        h3 {
+            font-family: 'Mulish', sans-serif;
+            font-size: 45px;
+        }
+
+        p {
+            font-family: 'Mulish', sans-serif;
+            font-size: 25px;
+        }
+
+        h5 {
+            font-family: 'Mulish', sans-serif;
+            font-size: 30px;
+        }
+    }
+
+}
+
+.awalan {
+    color: ivory;
+    margin-top: -10px;
+    padding: 150px 90px 770px 90px;
+    max-width: 100%;
+    font-family: Playfair Display, sans-serif;
+    height: auto;
+    background-image: url(../Img/rokok.png);
+    background-size: cover;
+
+    .judul {
+        h1 {
+            font-weight: bold;
+            font-size: 60px;
+            top: 350px;
+            position: relative;
+        }
+
+        p {
+            font-family: Mulish, sans-serif;
+            top: 350px;
+            position: relative;
+        }
+    }
+}
+
+.row {
+    display: flex;
+
+    .gambar2 {
+        margin-left: -110px;
+        margin-top: -11px;
+    }
+
+    .gambar {
+        margin-top: -725px;
+        margin-left: 370px;
+    }
+
+    .gambar3 {
+        margin-top: -794px;
+        margin-left: -196px;
+    }
+
+    .tulisan {
+        margin-top: 20px;
+        margin-left: 50px;
+
+        h1 {
+            font-family: Playfair Display, sans-serif;
+            font-size: 70px;
+        }
+
+        p {
+            font-family: Mulish, sans-serif;
+            font-weight: bold;
+            font-size: 22px;
+        }
+    }
+
+    .tombol {
+        margin-top: -80px;
+        margin-left: 770px;
+        font-size: 30px;
+
+        a{
+            color: #000;
+        }
+    }
+
+    .gambar4 {
+        margin-left: -196px;
+        margin-top: -8px;
+        background-size: cover;
+
+        h1{
+            font-size: 60px;
+            color: white;
+            margin-top: -650px;
+            margin-left: 100px;
+            text-align: center;
+            font-family: Playfair Display, sans-serif;
+        }
+    }
+}
+
+.card-img-top{
+    margin-top: 20px;
+    font-family: Playfair Display, sans-serif;
+
+    a {
+        margin-top: -250px;
+        font-size: 30px;
+        opacity: 0;
+        margin-left: 100px;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: white;
+        opacity: 1;
+    }
+    
+
+
+
+}
