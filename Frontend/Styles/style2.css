@@ -1,0 +1,36 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  background-color: #AEAEAE;
+  margin: 0;
+  padding: 0;
+}
+
+.topik {
+  height: 45px;
+  background-color: black !important;
+}
+
+.topik p {
+  font-size: 10px;
+  font-weight: 400;
+  color: white;
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: 79px;
+}
+
+@media (min-width: 992px) {
+  .topik {
+    height: 40px;
+    background-color: black !important;
+  }
+  .topik p {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+  }
+}
+/*# sourceMappingURL=style2.css.map */

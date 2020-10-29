@@ -2,6 +2,8 @@ body {
   font-family: 'Poppins', sans-serif;
   color: black;
   background-color: #AEAEAE;
+  margin: 0;
+  padding: 0;
 }
 
 .topik {
@@ -61,6 +63,7 @@ body {
   height: auto;
   background-image: url(../Img/rokok.png);
   background-size: cover;
+  background-position: center;
 }
 
 .awalan .judul h1 {
@@ -143,16 +146,25 @@ body {
   font-family: Playfair Display, sans-serif;
 }
 
-.card-img-top a {
+.card-img-top .tulisan {
   margin-top: -250px;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.card-img-top .tulisan a {
   font-size: 30px;
   opacity: 0;
-  margin-left: 100px;
   text-decoration: none;
 }
 
-.card-img-top a:hover {
+.card-img-top .tulisan a:hover {
   color: white;
   opacity: 1;
+}
+
+.justify-content-center {
+  font-family: Mulish, sans-serif;
+  margin-top: 260px;
 }
 /*# sourceMappingURL=style.css.map */

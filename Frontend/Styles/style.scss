@@ -2,6 +2,8 @@ body {
     font-family: 'Poppins', sans-serif;
     color: black;
     background-color: #AEAEAE;
+    margin: 0;
+    padding: 0;
 }
 
 .topik {
@@ -58,6 +60,7 @@ body {
 
 }
 
+// CSS Produk
 .awalan {
     color: ivory;
     margin-top: -10px;
@@ -67,6 +70,7 @@ body {
     height: auto;
     background-image: url(../Img/rokok.png);
     background-size: cover;
+    background-position: center;
 
     .judul {
         h1 {
@@ -148,20 +152,25 @@ body {
     margin-top: 20px;
     font-family: Playfair Display, sans-serif;
 
-    a {
+    .tulisan {
         margin-top: -250px;
-        font-size: 30px;
-        opacity: 0;
-        margin-left: 100px;
-        text-decoration: none;
-    }
+        text-align: center;
+        margin-left: 0px;
 
-    a:hover{
-        color: white;
-        opacity: 1;
-    }
+        a {
+            
+            font-size: 30px;
+            opacity: 0;
+            text-decoration: none;
+        }
     
-
-
-
+        a:hover{
+            color: white;
+            opacity: 1;
+        }
+    }  
+}
+.justify-content-center{
+    font-family: Mulish, sans-serif;
+    margin-top: 260px;
 }
